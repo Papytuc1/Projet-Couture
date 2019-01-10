@@ -1,10 +1,4 @@
-.central-top{
-    display: grid;
-    grid-template-columns: 80% 20%;
-}
-h1{
-    font-size: 3vw;
-}
+
 input[type=search]{
     width: 80%;
     border-radius: 18px;
@@ -13,18 +7,24 @@ input[type=search]{
     border-radius: 15px;
 }
 
-.central-creation {
+.central-tuto {
     display: grid;
     grid-template-columns: 20% 75%;
     justify-content: space-between;
     
 }
-
+.type{
+    height: 1300px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
 .description {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: repeat(4 , 25%);
     grid-gap: 15px;
+    justify-content: center;
+   
 }
 .description > figure > img {
    width: 100%;
@@ -34,4 +34,11 @@ input[type=search]{
 }
 figcaption {
     text-align: center;
+}
+
+#test, #video, #patrons {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 10px;
 }

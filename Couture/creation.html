@@ -9,32 +9,106 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="css/generale.css">
+    <link rel="stylesheet" href="css/generale.css">
+    <link rel="stylesheet" href="css/creation.css">
     <title>Document</title>
 </head>
 
 <body>
-    <nav>
-        <!--  <img class="ciseau" src="../Couture/image/ciseau-ouvert.svg" alt="Icone"> -->
-        <div class="ciseau"></div>
-        <ul>
+    <main>
+        <nav>
+            <div class="ciseau"></div>
+            <ul>
 
-            <li><a href="Index.html">Acceuil</a></li>
-            <li><a href="#">Création</a></li>
-            <li><a href="#">Evenement</a></li>
-            <li><a href="#">Tuto</a></li>
-            <li><a href="#">Connexion</a></li>
-        </ul>
-    </nav>
+                <li><a href="Index.html">Accueil</a></li>
+                <li><a href="creation.html">Créations</a></li>
+                <li><a href="#">Evénement</a></li>
+                <li class="tuto-hover">Tutos
+                    <ul class="tuto">
+                        <li><a href="tuto-niveau.html">Niveau</a></li>
+                        <li><a href="tuto-type.html">Support</a></li>
+                    </ul>
+                </li>
+                <li><a href="connexion">Connexion</a></li>
+            </ul>
+        </nav>
+        <section class="central-top">
+            <h1>Nos création</h1>
+            <div classe="barre">
+                <input type="search" placeholder="Recherche" name="barreDeRecherche">
+                <button class="btn btn-light"><i class="fas fa-search"></i></button>
+            </div>
+        </section>
 
-    <footer>
-        <ul>
-            <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
-            <li><a href="#"><i class="fab fa-google fa-2x"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
-        </ul>
-    </footer>
+        <section class="central-creation">
+            <aside>
+                <ul>
+                    <li>Robe</li>
+                    <li>Sweat-shirt</li>
+                    <li>T-shirt</li>
+                    <li>Pull</li>
+                </ul>
+                <ul>
+                    <li>Gants</li>
+                    <li>Echarpe</li>
+                    <li>Bonnet</li>
+                </ul>
+                <ul>
+                    <li>Pantalon</li>
+                    <li>Chaussettes</li>
+                    <li>Couverture</li>
+                </ul>
+            </aside>
 
+            <article class="description">
+                <figure>
+                    <img src="image/antique-1838324_960_720.jpg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/sewing-needle-541737_960_720.jpg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/photo-1457972657980-4c9fddebec8d.jpeg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/scissors-1008908_960_720.jpg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/sewing-needle-541737_960_720.jpg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/photo-1457972657980-4c9fddebec8d.jpeg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/antique-1838324_960_720.jpg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/antique-1838324_960_720.jpg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="image/antique-1838324_960_720.jpg" alt="">
+                    <figcaption> <a href="#">Créateur</a></figcaption>
+                </figure>
+
+            </article>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-google fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+            </ul>
+        </footer>
+    </main>
 </body>
 
 </html>
